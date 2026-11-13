@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diksha Yadav | CITS Trainee – Information Technology</title>
+  <meta name="description" content="Portfolio of Diksha Yadav, CITS trainee in Information Technology at NSTI Kanpur. Computer hardware, troubleshooting, networking and the Cyber Security Lab project.">
+  <meta name="theme-color" content="#0F5C47">
+
+  <!-- Social sharing preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Diksha Yadav | CITS Trainee – Information Technology">
+  <meta property="og:description" content="Computer hardware, troubleshooting, networking and a cyber safety awareness project.">
+
+  <!-- Favicon (inline, so no extra file is needed) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230F5C47'/%3E%3Ctext x='32' y='42' font-family='Arial' font-size='28' font-weight='700' fill='%23fff' text-anchor='middle'%3EDY%3C/text%3E%3C/svg%3E">
+
+  <!-- Fonts: Bricolage Grotesque (headings) + Source Sans 3 (body). Fallbacks are set in the CSS. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Set the saved theme before the page paints, to avoid a flash -->
+  <script>
+    (function () {
+      var theme = null;
+      try { theme = localStorage.getItem('theme'); } catch (e) {}
+      if (!theme) {
+        theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+      document.documentElement.classList.add('js');
+    })();
+  </script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Icon sprite (used with <use href="#i-name">) -->
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><polyline points="22,6 12,13 2,6"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+      <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+      <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+      <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></symbol>
+      <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></symbol>
+      <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></symbol>
+      <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></symbol>
+    </defs>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===================== HEADER / NAVIGATION ===================== -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Diksha Yadav, go to top">Diksha Yadav</a>
+
+      <nav class="nav" id="site-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#training" class="nav-link">Training</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark theme">
+          <svg class="icon icon-moon" aria-hidden="true"><use href="#i-moon"/></svg>
+          <svg class="icon icon-sun" aria-hidden="true"><use href="#i-sun"/></svg>
+        </button>
+        <button class="icon-btn nav-toggle" id="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+          <svg class="icon icon-open" aria-hidden="true"><use href="#i-menu"/></svg>
+          <svg class="icon icon-close" aria-hidden="true"><use href="#i-close"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===================== HOME ===================== -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <!-- Decorative circuit traces (drawn once on page load) -->
+      <svg class="traces" viewBox="0 0 1200 640" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+        <g class="trace-group" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path pathLength="1" d="M0 120 H260 L320 180 H560 L620 120 H900 L960 60 H1200"/>
+          <path pathLength="1" d="M0 300 H180 L240 360 H420 L480 300 H700 L760 360 H1200"/>
+          <path pathLength="1" d="M0 520 H340 L400 460 H640 L700 520 H980 L1040 580 H1200"/>
+          <path pathLength="1" d="M520 0 V90 L580 150 V260 L520 320 V470"/>
+          <path pathLength="1" d="M860 640 V540 L920 480 V360 L980 300 V200"/>
+        </g>
+        <g class="trace-pads" stroke-width="2">
+          <circle cx="260" cy="120" r="7"/><circle cx="560" cy="180" r="7"/><circle cx="900" cy="120" r="7"/>
+          <circle cx="180" cy="300" r="7"/><circle cx="700" cy="300" r="7"/><circle cx="340" cy="520" r="7"/>
+          <circle cx="640" cy="460" r="7"/><circle cx="980" cy="520" r="7"/><circle cx="520" cy="470" r="7"/>
+        </g>
+      </svg>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1 id="hero-title">Diksha Yadav</h1>
+          <!-- EDIT: professional headline -->
+          <p class="hero-role">CITS Trainee – Information Technology (I.T)</p>
+          <!-- EDIT: short introduction -->
+          <p class="hero-intro">I am training in computer hardware, troubleshooting and networking at NSTI Kanpur. I also built Cyber Security Lab, a small website that teaches safe browsing.</p>
+
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#projects">View projects</a>
+            <a class="btn btn-secondary" id="resume-btn" href="assets/documents/resume.pdf" download="Diksha_Yadav_Resume.pdf">
+              <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>Download resume
+            </a>
+            <a class="btn btn-ghost" href="#contact">Contact me</a>
+          </div>
+        </div>
+
+        <!-- Profile at a glance: styled like a component spec sheet -->
+        <aside class="spec-card" aria-label="Profile at a glance">
+          <div class="spec-head">
+            <div class="avatar">
+              <span class="avatar-initials" aria-hidden="true">DY</span>
+              <!-- EDIT: add your photo as assets/images/profile.jpg. Until then, the initials show. -->
+              <img src="assets/images/profile.jpg" alt="Photo of Diksha Yadav" width="160" height="160" onerror="this.hidden=true">
+            </div>
+            <div>
+              <p class="spec-name">Diksha Yadav</p>
+              <p class="spec-sub">Unnao, Uttar Pradesh</p>
+            </div>
+          </div>
+          <dl class="spec-list">
+            <div><dt>Trade</dt><dd>Information Technology (I.T)</dd></div>
+            <div><dt>Institute</dt><dd>NSTI Kanpur</dd></div>
+            <div><dt>Session</dt><dd>2026–27</dd></div>
+            <div><dt>Focus</dt><dd>Hardware, troubleshooting, networking</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container narrow">
+        <h2 id="about-title">About me</h2>
+        <!-- EDIT: about text -->
+        <p class="lead">I am a CITS trainee in Information Technology at NSTI Kanpur (session 2026–27). Before this, I completed my ITI at Govt. ITI Purwa, Unnao.</p>
+        <p>My training covers computer hardware assembly and maintenance, troubleshooting, operating system and software installation, and computer networking. I also built Cyber Security Lab, an educational website about suspicious links, strong passwords and phishing messages.</p>
+        <p>I am looking to keep learning and to apply these skills in practical IT work.</p>
+      </div>
+    </section>
+
+    <!-- ===================== EDUCATION ===================== -->
+    <section class="section section-alt" id="education" aria-labelledby="education-title">
+      <div class="container narrow">
+        <h2 id="education-title">Education</h2>
+        <ol class="timeline">
+          <!-- EDIT: add new entries on top (newest first) by copying one <li> block -->
+          <li class="timeline-item">
+            <p class="timeline-date">Session 2026–27 · Current</p>
+            <h3>CITS – Information Technology (I.T)</h3>
+            <p>NSTI Kanpur</p>
+          </li>
+          <li class="timeline-item">
+            <p class="timeline-date">Passing year 2024–26</p>
+            <h3>ITI</h3>
+            <p>Govt. ITI Purwa, Unnao</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== SKILLS ===================== -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 id="skills-title">Skills</h2>
+        <div class="skills-grid">
+          <!-- EDIT: change, add or remove <li> items inside any group -->
+          <div class="skill-group skill-group-wide">
+            <h3>Core trade skills</h3>
+            <ul class="chips">
+              <li>Computer hardware assembly</li>
+              <li>Computer hardware maintenance</li>
+              <li>Computer troubleshooting</li>
+              <li>Operating system installation</li>
+              <li>Software installation</li>
+              <li>Computer networking</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Computer skills</h3>
+            <ul class="chips">
+              <li>MS Office</li>
+              <li>Internet</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Software and tools</h3>
+            <ul class="chips">
+              <li>Windows</li>
+              <li>MS Office</li>
+              <li>Cisco Packet Tracer</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Soft skills</h3>
+            <ul class="chips">
+              <li>Communication</li>
+              <li>Problem solving</li>
+              <li>Teamwork</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section class="section section-alt" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 id="projects-title">Projects</h2>
+        <div class="project-list">
+
+          <!-- EDIT: to add another project, copy this whole <article> block and change the text -->
+          <article class="project-card">
+            <div class="project-media">
+              <!-- Placeholder shown until you add assets/images/cyber-security-lab.png -->
+              <div class="project-placeholder" aria-hidden="true">
+                <svg class="icon icon-xl"><use href="#i-shield"/></svg>
+                <span>Cyber Security Lab</span>
+              </div>
+              <img src="assets/images/cyber-security-lab.png" alt="Screenshot of the Cyber Security Lab website" loading="lazy" onerror="this.hidden=true">
+            </div>
+            <div class="project-body">
+              <h3>Cyber Security Lab</h3>
+              <p>A simple educational website that teaches students to recognise suspicious website links, create strong passwords and avoid phishing messages. It has three modules: Fake Website Detection, Password Strength Checker and Phishing Awareness. It is meant for classroom demonstration only and does not guarantee security.</p>
+
+              <h4>What I did</h4>
+              <p>Designed the website using HTML, CSS and JavaScript and built its three modules. Tested it with fictional sample data and prepared the project PPT and report.</p>
+
+              <ul class="tags" aria-label="Technologies used">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python Flask</li>
+              </ul>
+              <!-- TODO: When the project is on GitHub, add a link here:
+              <a class="btn btn-secondary" href="https://github.com/DikshaYadav05/REPO-NAME" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+              -->
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TRAINING ===================== -->
+    <section class="section" id="training" aria-labelledby="training-title">
+      <div class="container narrow">
+        <h2 id="training-title">Training</h2>
+        <div class="training-panel">
+          <!-- EDIT: training details -->
+          <h3>National Skill Training Institute (NSTI), Kanpur</h3>
+          <dl class="meta-list">
+            <div><dt>Role</dt><dd>Trainee</dd></div>
+            <div><dt>Duration</dt><dd>2026–27</dd></div>
+            <div><dt>Skills learned</dt><dd>Assembling and disassembling of computer hardware</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CERTIFICATIONS ===================== -->
+    <section class="section section-alt" id="certifications" aria-labelledby="cert-title">
+      <div class="container narrow">
+        <h2 id="cert-title">Certifications</h2>
+        <ul class="cert-list">
+          <!-- EDIT: copy one <li> block for each new certificate -->
+          <li class="cert-item">
+            <h3>AI Literacy</h3>
+            <p>IBM SkillsBuild · Issued 30 October 2026</p>
+            <a class="cert-link" href="https://www.credly.com/go/UVjDYjmB" target="_blank" rel="noopener noreferrer">Verify certificate on Credly</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container narrow">
+        <h2 id="contact-title">Contact</h2>
+        <p class="lead">Write to me by email or find me on LinkedIn and GitHub.</p>
+        <ul class="contact-list">
+          <!-- EDIT: contact details -->
+          <li>
+            <a class="contact-link" href="mailto:ks9068752@gmail.com">
+              <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>
+              <span><strong>Email</strong><span class="contact-value">ks9068752@gmail.com</span></span>
+            </a>
+          </li>
+          <li>
+            <a class="contact-link" href="tel:+918840041252">
+              <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+              <span><strong>Phone</strong><span class="contact-value">8840041252</span></span>
+            </a>
+          </li>
+          <li>
+            <a class="contact-link" href="https://www.linkedin.com/in/diksha-yadav-3ba432449" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg>
+              <span><strong>LinkedIn</strong><span class="contact-value">Diksha Yadav</span></span>
+            </a>
+          </li>
+          <li>
+            <a class="contact-link" href="https://github.com/DikshaYadav05" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>
+              <span><strong>GitHub</strong><span class="contact-value">DikshaYadav05</span></span>
+            </a>
+          </li>
+          <li>
+            <div class="contact-link contact-static">
+              <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
+              <span><strong>Location</strong><span class="contact-value">Vill. Hindu Pur, Post Akohari, Dist. Unnao</span></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Diksha Yadav</p>
+      <p>CITS Trainee – Information Technology, NSTI Kanpur</p>
+    </div>
+  </footer>
+
+  <button class="to-top" id="to-top" type="button" aria-label="Back to top" hidden>
+    <svg class="icon" aria-hidden="true"><use href="#i-up"/></svg>
+  </button>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
